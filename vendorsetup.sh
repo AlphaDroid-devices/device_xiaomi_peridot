@@ -24,4 +24,8 @@ echo "Cloning Priv Keys..."
 # Keys
 git clone https://github.com/AlphaDroid-devices/vendor_alpha_keys vendor/alpha/keys
 
+echo "Cloning BCR..."
+# BCR
+git clone https://github.com/MrTopia/vendor_bcr vendor/bcr
+
 echo "Completed, proceeding to lunch"
